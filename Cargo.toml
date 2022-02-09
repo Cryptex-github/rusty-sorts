@@ -1,7 +1,12 @@
 [package]
 name = "rusty-sorts"
 version = "0.0.1"
+author = "Cryptex"
 edition = "2021"
+license = "MIT"
+description = " A crate that contains some basic sorting algorithms."
+repository = "https://github.com/Cryptex-github/rusty-sorts"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
