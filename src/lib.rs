@@ -2,8 +2,8 @@
 
 /// A function for sorting an array of integers with insertion sort.
 pub fn insertion_sort<T>(mut to_sort: Vec<T>) -> Vec<T>
-where 
-    T: PartialOrd + Copy
+where
+    T: PartialOrd + Copy,
 {
     for i in 1..to_sort.len() {
         let mut j = i;
@@ -14,3 +14,5 @@ where
     }
     to_sort
 }
+
+mod test;
